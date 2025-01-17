@@ -1,0 +1,17 @@
+_G.Settings = {
+    Main = {
+        -- Auto TP
+        ["Distance TP"] = 50,
+        -- Auto Reset
+        ["Max Wawe"] = 9999,
+        ["Auto Reset"] = false,
+        -- Send Webhook
+        ["Input Webhook"] = "hi",
+        ["Auto Webhook"] = false,
+        -- Boost FPS
+        ["Black Screen"] = false,
+        ["Boost FPS"] = true,
+    },
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/meobeo8/Misc/a/PremiumScriptV3.lua"))()
